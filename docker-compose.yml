@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   checker_bot:
+    container_name: checker-bot
     build: .
     env_file:
       - .env
