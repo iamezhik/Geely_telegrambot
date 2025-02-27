@@ -75,7 +75,7 @@ docker-compose ps
 ```bash
 sudo apt install python3.10 python3.10-venv -y
 ```
-2. Создайте виртуальное окружение:
+2. Создайте виртуальное окружение python для изоляции библиотек:
 ```bash
 python3.10 -m venv venv
 source venv/bin/activate
