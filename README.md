@@ -44,7 +44,7 @@ newgrp docker
 1. Скачайте репозиторий:
 ```bash
 git clone https://github.com/iamezhik/Geely_telegrambot.git
-cd Geely_telegrambot
+cd geely_telegrambot
 ```
 2. Отредактируйте содержимое файла с переменными (вставьте свои значения):
 ```bash
