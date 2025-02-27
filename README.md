@@ -124,7 +124,7 @@ docker-compose logs -f
 ```
 2. Проверка работы бота:
 ```bash
-docker exec -it checker_bot python3 bot.py --test
+docker exec -it checker_bot python3 checker_bot.py --test
 ```
 3. Проверка сетевых соединений:
 ```bash
