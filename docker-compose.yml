@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  checker_bot:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./.env:/checker_bot/.env
+    restart: unless-stopped
