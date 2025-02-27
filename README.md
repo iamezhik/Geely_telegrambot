@@ -122,9 +122,9 @@ python3 checker_bot.py
 ```bash
 docker-compose logs -f
 ```
-2. Проверка работы бота:
+2. Проверка работы бота (запуск ручками):
 ```bash
-docker exec -it checker_bot python3 checker_bot.py --test
+docker exec -it geely_telegrambot-checker_bot-1 python3 checker_bot.py --test
 ```
 3. Проверка сетевых соединений:
 ```bash
